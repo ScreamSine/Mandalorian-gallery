@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(14, 26, 84, 0.8)
+}
+
+.container {
+    margin: 40px auto;
+    width: 800px;
+}
+
+.cover {
+    padding: 30px;
+    min-height: 500px;
+    position: relative;
+    filter: drop-shadow(5px 5px 5px black);
+}
+
+.card {
+    width: 80%;
+    height: 80%;
+    box-shadow: 4px -2px 4px 1px black;
+    position: absolute;
+    transition: all ease 2s;
+    left: 10%;
+    top: 15%;
+}
+
+.swipe {
+    left: 10000px;
+}
+
+div:hover:first-child {
+    filter: contrast(110%);
+}
